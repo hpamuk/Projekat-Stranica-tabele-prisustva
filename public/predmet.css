@@ -1,0 +1,104 @@
+li{
+    display: inline;
+} 
+
+ul{
+    margin: 0;
+}
+
+.dijeloviMenija{
+    display: inline-block;
+    width: 200px;
+}
+
+#meni{
+    background-color: rgb(205, 219, 222);
+    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-width: 200px; 
+    height: max-content;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#sadrzaj{
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-right: 20px;
+}
+
+#sadrzaj div{
+    scroll-margin-block-start: 94px;
+}
+
+@media screen and (max-width: 957px){
+    #sadrzaj{ 
+        margin-top:148px;
+    } 
+    #sadrzaj div{
+        scroll-margin-block-start: 148px;
+    }
+}
+
+@media screen and (max-width: 681px){
+    #sadrzaj{ 
+        margin-top:156px;
+    } 
+    #sadrzaj div{
+        scroll-margin-block-start: 150px;
+    }
+}
+
+
+@media screen and (max-width: 557px){
+    #sadrzaj{ 
+        margin-top:250px;
+    } 
+    #sadrzaj div{
+        scroll-margin-block-start: 250px;
+    }
+}
+
+.smjerovi{
+    font-size: 14pt;
+    padding-left: 20px;
+}
+
+.predmeti{
+    grid-template-columns: repeat(5, 200px);
+    display: grid;
+    display: flex; 
+    column-gap: 10px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-bottom: 20px;
+}
+
+.obavezni{
+    border-style:groove;
+    background-color: white;
+    min-width: 200px; max-width: 200px;
+    text-align: center;
+}
+
+.izborni{
+    border-style:groove;
+    min-width: 200px; max-width: 200px;
+    text-align: center;
+    background-color: powderblue;
+}
+
+.nePripada{
+    border-style:groove;
+    min-width: 200px; max-width: 200px;
+    text-align: center;
+    background-color: grey;
+}
+

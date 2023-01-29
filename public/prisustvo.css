@@ -1,0 +1,78 @@
+.zeleno {
+    background-color: green;
+}
+
+.crveno {
+    background-color: red;
+}
+
+.bijelo{
+    background-color: white;
+}
+
+th {
+    padding-left: 7px;
+    padding-top: 12px;
+    vertical-align: top;
+    text-align: left;
+    border: 1px solid;
+}
+
+td{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid;
+}
+
+.greska {
+    color: red;
+}
+
+.tabela {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.tabela th {
+    min-width: 100px;
+    height: 100px;
+    text-align: left;
+}
+
+.tabela td {
+    min-width: 100px;
+    height: 100px;
+    padding-left: 6px;
+    text-align: center;
+}
+
+.mala-tabela {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.mala-tabela th {
+    height: 50px;
+    min-width: auto;
+    text-align: center;
+}
+
+.mala-tabela td {
+    height: 50px;
+    min-width: 25px;
+    text-align: center;
+}
+
+.strelice {
+    padding-top: 50px;
+    display: flex;
+    grid-gap: 25px;
+}
+
+.strelica {
+    cursor: pointer;
+    width: 50px;
+}

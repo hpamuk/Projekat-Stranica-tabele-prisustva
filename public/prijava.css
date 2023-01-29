@@ -1,0 +1,39 @@
+#forma {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#dodatno {
+    margin-top: 15px;
+    display: none;
+    width: 400px;
+    column-gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dodatno-prikaz {
+    display: grid;
+}
+
+input {
+    margin-top: 5px;
+}
+
+label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
+    background-color: powderblue;
+}
+
+p {
+    margin-top: 15px;
+}
+
+.greska-tekst {
+    color: darkred;
+}
